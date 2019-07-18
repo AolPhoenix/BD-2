@@ -4,12 +4,12 @@
   <link rel="icon" href="imagenes/icono.png">
   <title>Presiogram</title>
 </head>
-<body class="Fuente">
+<body class="Fuente" style="text-align:center;">
 <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
 <link href="estilos.css" rel="stylesheet">
-<div class="fadein" style="display: inline-block; position:relative; left:700px; bottom:283; z-index:1;">
+<div class="fadein" style="display: inline-block; position:relative; left:498px; bottom:283;  z-index:1;">
   <img src="imagenes/uno.jpg" style="width: 247px; height:440px;">
   <img src="imagenes/dos.jpg" style="width: 247px; height:440px;">
   <img src="imagenes/tres.jpg" style="width: 247px; height:440px;">
