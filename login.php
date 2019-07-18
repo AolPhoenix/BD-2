@@ -1,7 +1,7 @@
 <html>
 <head>
   <link rel="icon" href="imagenes/icono.png">
-  <title>Iniciar sesión • Instagram</title>
+  <title>Iniciar sesión • Presiogram</title>
 </head>
 <link href="estilos.css" rel="stylesheet">
 
