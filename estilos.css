@@ -4,22 +4,20 @@ font-family: 'Open Sans';
 }
 
 .Telefono {
-  position: relative;
-  top: 105px;
-  right:195px;
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
+  display: inline-block;
+  margin-left:538px;
+  margin-top:100px;
+
 }
 
 .Formulario{
-  position: relative;
+  display:inline-block;
+  position:relative;
   left:45px;
-  top:210px;
+  bottom:10px;
   width: 260px;
   padding: 9px;
   margin: 4px 0;
-  display: inline-block;
   border-style: solid;
   border-width: 1;
   flex: 1 0 0px;
@@ -46,10 +44,11 @@ input:focus {   border: 1px solid #262626;
       font-weight: 600;
       font-size:14px;
       color: #fff;
+      display: inline-block;
       position: relative;
       margin:10px;
       left:35;
-      top:210;
+      bottom:15px;
       box-sizing: border-box;
       cursor: pointer;
       padding: 5px 9px;
@@ -63,26 +62,27 @@ font-family: 'Open Sans';
       border-radius: 4px;
         width: 260px;
       height: 30px;
-      font-weight: 600;
+      font-weight: 500;
       font-size:14px;
       color: #fff;
+      display: inline-block;
       position: relative;
       margin:10px;
-      bottom:110px;
+  bottom:290;
       left:35px;
       box-sizing: border-box;
       outline:0;
-      padding: 5px 9px;
       text-align: center;
-      text-indent: 20px;
+      text-indent: 10px;
 
   cursor:context-menu;
 font-family: 'Open Sans';
 }
 
 .FacebookFoto{
+  display: inline-block;
   position:relative;
-  top:152px;
+  top:47px;
   left:73px;
   z-index : 1;
 }
@@ -90,22 +90,20 @@ font-family: 'Open Sans';
 .CajaInicial {
   background-color: #fff;
   border: 1px solid #e6e6e6;
-  position:fixed;
-  left:975px;
-  bottom:310px;
-  width: 350px;
+  display:inline-block;
+  position:relative;
+    width: 350px;
   height: 570px;
   border-radius: 1px;
-  margin: 0 0 10px;
-  padding: 10px 0;
 }
 
 .CajaDos {
+
   background-color: #fff;
   border: 1px solid #e6e6e6;
-  position:fixed;
-  left:975px;
-  bottom:220px;
+  display:inline-block;
+  position:relative;
+  right:353px;
   width: 350px;
   height: 75px;
   border-radius: 1px;
@@ -115,12 +113,14 @@ font-family: 'Open Sans';
 }
 
 .cuenta{
-  position:fixed;
+  display:block;
+  position:relative;
+  left:67px;
+  top:5;
   background-color: #fff;
 margin: 0 0 10px;
 padding: 10px 0;
-bottom:237;
-left:1042;
+
 font-size: 14px;
 
 }
@@ -130,29 +130,31 @@ font-size: 14px;
 }
 
 .presiogram{
-  position:fixed;
-  left:1025;
-  bottom:790;
+  display:inline-block;
+  position:relative;
+  bottom:110px;
+  left:27;
   z-index : 1;
 }
 
 .TextoRegistrar{
-      position:fixed;
+  display:inline-block;
+      position:relative;
       font-weight: 600;
       line-height: 20px;
       font-size: 16px;
       margin: 0 40px 10px;
-      left:985;
-      bottom:740;
       color: #999;
+      top:20px;
+      left:5px;
       text-align: center;
 }
 
 .Condiciones{
    color: #999;
-   position:fixed;
-   left:970px;
-   bottom:350px;
+   display:inline-block;
+   position:relative;
+   top:470px;
    text-align: center;
    margin: 10px 60px;
    line-height: 18px;
@@ -166,9 +168,10 @@ text-decoration: none;
 }
 
 .O{
-  position:fixed;
-  left:1003;
-  bottom:655;
+  display:inline-block;
+  position:relative;
+  bottom:60px;
+  left:27px;
   z-index : 1;
 }
 
@@ -234,131 +237,25 @@ text-decoration: none;
   margin: 0px 0px -2px;
 }
 
-@-webkit-keyframes cf4FadeInOut {
- 0% {
-   opacity:1;
- }
- 17% {
-   opacity:1;
- }
- 25% {
-   opacity:0;
- }
- 92% {
-   opacity:0;
- }
- 100% {
-   opacity:1;
- }
+@keyframes fade {
+  0%   { opacity: 0; }
+  11.11%   { opacity: 1; }
+  33.33%  { opacity: 1; }
+  44.44%  { opacity: 0; }
+  100% { opacity: 0; }
 }
 
-@-moz-keyframes cf4FadeInOut {
- 0% {
-   opacity:1;
- }
- 17% {
-   opacity:1;
- }
- 25% {
-   opacity:0;
- }
- 92% {
-   opacity:0;
- }
- 100% {
-   opacity:1;
- }
+.fadein img {
+    opacity:0;
+    animation-name: fade;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    position:absolute;
+    left:0;
+    right:0;
 }
 
-@-o-keyframes cf4FadeInOut {
- 0% {
-   opacity:1;
- }
- 17% {
-   opacity:1;
- }
- 25% {
-   opacity:0;
- }
- 92% {
-   opacity:0;
- }
- 100% {
-   opacity:1;
- }
-}
-
-@keyframes cf4FadeInOut {
- 0% {
-   opacity:1;
- }
- 17% {
-   opacity:1;
- }
- 25% {
-   opacity:0;
- }
- 92% {
-   opacity:0;
- }
- 100% {
-   opacity:1;
- }
-}
-
-#cf4a {
-  position:relative;
-  height:281px;
-  width:450px;
-  margin:0 auto;
-}
-#cf4a img {
-  position:absolute;
-  left:0;
-}
-
-#cf4a img {
-  -webkit-animation-name: cf4FadeInOut;
-  -webkit-animation-timing-function: ease-in-out;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-duration: 12s;
-
-  -moz-animation-name: cf4FadeInOut;
-  -moz-animation-timing-function: ease-in-out;
-  -moz-animation-iteration-count: infinite;
-  -moz-animation-duration: 12s;
-
-  -o-animation-name: cf4FadeInOut;
-  -o-animation-timing-function: ease-in-out;
-  -o-animation-iteration-count: infinite;
-  -o-animation-duration: 12s;
-
-  animation-name: cf4FadeInOut;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  animation-duration: 12s;
-}
-#cf4a img:nth-of-type(1) {
-  -webkit-animation-delay: 12s;
-  -moz-animation-delay: 12s;
-  -o-animation-delay: 12s;
-  animation-delay: 12s;
-}
-#cf4a img:nth-of-type(2) {
-  -webkit-animation-delay: 8s;
-  -moz-animation-delay: 8s;
-  -o-animation-delay: 8s;
-  animation-delay: 8s;
-}
-#cf4a img:nth-of-type(3) {
-  -webkit-animation-delay: 4s;
-  -moz-animation-delay: 4s;
-  -o-animation-delay: 4s;
-  animation-delay: 4s;
-}
-#cf4a img:nth-of-type(4) {
-  -webkit-animation-delay: 0;
-  -moz-animation-delay: 0;
-  -o-animation-delay: 0;
-  animation-delay: 0;
-}
+.fadein img:nth-child(1) { animation-delay: 0s; }
+.fadein img:nth-child(2) { animation-delay: 2s; }
+.fadein img:nth-child(3) { animation-delay: 4s; }
+.fadein img:nth-child(4) { animation-delay: 6s; }
