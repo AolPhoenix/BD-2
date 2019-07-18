@@ -60,7 +60,7 @@
 <body class="fondo">
 <center>
   <div class="cajalogin">
-    <img src="presiogram.png" alt="">
+    <img src="imagenes/presiogram.png" alt="">
     <div class="estiloinput">
       <form action="comp.php" method="post">
       <p><input class="input" type="text" name="usuario" placeholder="Teléfono, usuario o correo electrónico" /></p>
@@ -68,19 +68,12 @@
       <button class="boton" type="submit" action="comp.php">Iniciar sesion </button>
       </form>
     </div>
-    <img src="barra.png" alt="">
+    <img src="imagenes/barra.png" alt="">
     <div>
-    <img src="fb.png" alt="" class="fb"> <a href="login.php" class="letras">Iniciar sesion con facebook</a>
+    <img src="imagenes/fb.png" alt="" class="fb"> <a href="login.php" class="letras">Iniciar sesion con facebook</a>
     </div>
   </div>
   <div class="cajalogin">
     ¿No tienes cuenta?<a href="inicio.php" class="registrar"> Registrate</a>
   </div>
 </center>
-
-<?php
-$usuario = $_POST["usuario"];
-$pass = $_POST["password"];
-
-?>
-</body>
