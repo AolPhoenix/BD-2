@@ -1,0 +1,173 @@
+.Fuente {
+font-family: 'Open Sans';
+  background-color: #fafafa;
+}
+
+.Telefono {
+  position: relative;
+  top: 105px;
+  right:195px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.Formulario{
+  position: relative;
+  left:45px;
+  top:210px;
+  width: 260px;
+  padding: 9px;
+  margin: 4px 0;
+  display: inline-block;
+  border-style: solid;
+  border-width: 1;
+  flex: 1 0 0px;
+outline: 0;
+overflow: hidden;
+padding: 9px 0 7px 8px;
+text-overflow: ellipsis;
+  background: #fafafa;
+  border-radius: 4px;
+  font-size:13;
+  box-sizing: border-box;
+font-family: 'Open Sans';
+
+}
+input:focus {   border: 1px solid #262626;
+  border-radius: 4px; }
+
+.Registrar{
+      background-color: #3897f0;
+      border: 1px solid #3897f0;
+      border-radius: 4px;
+        width: 260px;
+      height: 30px;
+      font-weight: 600;
+      font-size:14px;
+      color: #fff;
+      position: relative;
+      margin:10px;
+      left:35;
+      top:210;
+      box-sizing: border-box;
+      cursor: pointer;
+      padding: 5px 9px;
+      text-transform: inherit;
+text-overflow: ellipsis;
+font-family: 'Open Sans';
+}
+.Facebook {
+      background-color: #3897f0;
+      border: 1px solid #3897f0;
+      border-radius: 4px;
+        width: 260px;
+      height: 30px;
+      font-weight: 600;
+      font-size:14px;
+      color: #fff;
+      position: relative;
+      margin:10px;
+      bottom:110px;
+      left:35px;
+      box-sizing: border-box;
+      outline:0;
+      padding: 5px 9px;
+      text-align: center;
+      text-indent: 20px;
+
+  cursor:context-menu;
+font-family: 'Open Sans';
+}
+
+.FacebookFoto{
+  position:relative;
+  top:152px;
+  left:73px;
+  z-index : 1;
+}
+
+.CajaInicial {
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+  position:fixed;
+  left:975px;
+  bottom:310px;
+  width: 350px;
+  height: 570px;
+  border-radius: 1px;
+  margin: 0 0 10px;
+  padding: 10px 0;
+}
+
+.CajaDos {
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+  position:fixed;
+  left:975px;
+  bottom:220px;
+  width: 350px;
+  height: 75px;
+  border-radius: 1px;
+  margin: 0 0 10px;
+  padding: 10px 0;
+
+}
+
+.cuenta{
+  position:fixed;
+  background-color: #fff;
+margin: 0 0 10px;
+padding: 10px 0;
+bottom:237;
+left:1042;
+font-size: 14px;
+
+}
+
+.cuentalink{
+  color: #3897f0;
+}
+
+.presiogram{
+  position:fixed;
+  left:1025;
+  bottom:790;
+  z-index : 1;
+}
+
+.TextoRegistrar{
+      position:fixed;
+      font-weight: 600;
+      line-height: 20px;
+      font-size: 16px;
+      margin: 0 40px 10px;
+      left:985;
+      bottom:740;
+      color: #999;
+      text-align: center;
+}
+
+.Condiciones{
+   color: #999;
+   position:fixed;
+   left:970px;
+   bottom:350px;
+   text-align: center;
+   margin: 10px 60px;
+   line-height: 18px;
+font-size: 14px;
+}
+
+
+.minia{
+  color: #003569;
+text-decoration: none;
+}
+
+.O{
+  position:fixed;
+  left:1003;
+  bottom:655;
+  z-index : 1;
+}
