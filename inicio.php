@@ -9,8 +9,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
 <link href="estilos.css" rel="stylesheet">
-
-<div class="fadein" style="position:fixed; left:685px; top:196px; z-index:1;">
+<div id="cf4a" class="shadow" style="position:fixed; left:685px; top:196px; z-index:1;">
   <img src="imagenes/uno.jpg" style="width: 247px; height:440px;">
   <img src="imagenes/dos.jpg" style="width: 247px; height:440px;">
   <img src="imagenes/tres.jpg" style="width: 247px; height:440px;">
