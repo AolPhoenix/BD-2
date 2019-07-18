@@ -26,7 +26,7 @@
 </div>
 
 <div class="CajaDos">
-  <span class="cuenta">¿Tienes una cuenta? <a class="minia" href="/accounts/login/?source=auth_switcher"><span class="cuentalink">Inicia sesión</span></a></span>
+  <span class="cuenta">¿Tienes una cuenta? <a class="minia" href="login.php"><span class="cuentalink">Inicia sesión</span></a></span>
 </div>
 <span class="Condiciones">
   Al registrarte, aceptas nuestras<br>

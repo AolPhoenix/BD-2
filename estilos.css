@@ -171,3 +171,65 @@ text-decoration: none;
   bottom:655;
   z-index : 1;
 }
+
+.cajalogin{
+  padding-top: 15px;
+  background-color: #fff;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e6e6e6;
+  width: 400px;
+  margin: 10px;
+  padding-bottom: 10px;
+
+}
+.fondo{
+  background-color: #fafafa;
+  padding-top: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
+.boton{
+  background-color: #3897f0;
+  border: 1px solid #3897f0;
+  border-radius: 4px;
+  color: #fff;
+  position: relative;
+  font-size:14px;
+  font-weight: 600;
+  width: 100%;
+  height: 30;
+
+}
+.estiloinput{
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.registrard{
+  color: #3897f0;;
+  text-decoration: none;
+  font-weight: 600;
+
+}
+.input{
+  border-style: solid;
+  border-width: 1;
+  background: #fafafa;
+  border-radius: 4px;
+  font-family: 'Open Sans';
+  background: #fafafa;
+  border-radius: 2px;
+  display: block;
+  width: 100%;
+  border: 1px solid #e6e6e6;
+  position:relative;
+  padding: 10px;
+}
+.letras{
+  color:#385185;
+  text-decoration: none;
+}
+.fb{
+  margin: 0px 0px -2px;
+}
