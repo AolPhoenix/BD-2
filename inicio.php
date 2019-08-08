@@ -4,7 +4,7 @@
   <link rel="icon" href="imagenes/icono.png">
   <title>Presiogram</title>
 </head>
-<body class="Fuente" style="text-align:center;">
+<body class="Fuente fondo" style="text-align:center;">
 <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
