@@ -32,7 +32,7 @@
       <input type="text" class="Formulario" placeholder="Nombre de usuario" name="usuario" /><br />
       <input type="password" class="Formulario" placeholder="Contraseña" name="password" /><br />
       <input type="submit" class="Registrar btn btn-primary" name="registro" value="Registrarse" />
-      <input type="button" class="Facebook btn btn-primary disabled" action="dos.php" name="facebook" value="Inicia sesión con Facebook" />
+      <input type="button" class="Facebook btn btn-primary disabled" action="principal.php" name="facebook" value="Inicia sesión con Facebook" />
   </form>
 </div>
 

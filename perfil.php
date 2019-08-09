@@ -1,9 +1,10 @@
 <?php $usuario = $_POST['variable1'];
-
+$fotoperfil = $_POST['variable2'];
 echo $usuario?>
 
 <form method=post action='principal.php'>
   <input type="hidden" name="variable1" value='<?php echo $usuario ?>'>
+  <input type="hidden" name="variable2" value='<?php echo $fotoperfil ?>'>
   <input type="image" name="imgbtn" src="imagenes/persona.png"  alt="persona" class="persona">
 </form>
 
