@@ -11,10 +11,10 @@
   <div class="cajalogin">
     <img src="imagenes/presiogram.png" alt="">
     <div class="estiloinput">
-      <form action="comp.php" method="post">
+      <form action="principal.php" method="post">
       <p><input class="input" type="text" name="usuario" placeholder="Teléfono, usuario o correo electrónico" /></p>
       <p><input class="input" type="password" name="password" placeholder="Contraseña" /></p>
-      <button class="boton Fuente" type="submit" action="comp.php">Iniciar sesion </button>
+      <button class="boton Fuente" type="submit" name="login" action="principal.php">Iniciar sesion </button>
       </form>
     </div>
     <img src="imagenes/barra.png" alt="">

@@ -26,12 +26,12 @@
   <IMG SRC = imagenes/facebook.png class="FacebookFoto">
   <IMG SRC = imagenes/presiogram.png class="presiogram">
   <IMG SRC = imagenes/O.png class="O">
-  <form action="dos.php" method="POST">
+  <form action="principal.php" method="POST">
       <input type="text" class="Formulario" placeholder="Número de celular o correo electrónico" name="correo" /><br />
       <input type="text" class="Formulario" placeholder="Nombre completo" name="nombre" /><br />
       <input type="text" class="Formulario" placeholder="Nombre de usuario" name="usuario" /><br />
       <input type="password" class="Formulario" placeholder="Contraseña" name="password" /><br />
-      <input type="submit" class="Registrar btn btn-primary" name="submit" value="Registrarse" />
+      <input type="submit" class="Registrar btn btn-primary" name="registro" value="Registrarse" />
       <input type="button" class="Facebook btn btn-primary disabled" action="dos.php" name="facebook" value="Inicia sesión con Facebook" />
   </form>
 </div>
