@@ -12,7 +12,9 @@
     <buscar_caja><input type="search" id="search" placeholder="Buscar" class="buscar"></buscar_caja>
     <img src="imagenes/brujula.png" alt="" class="brujula">
     <img src="imagenes/corazon.png" alt="" class="corazon">
-    <img src="imagenes/persona.png" alt="" class="persona">
+    <form method=post action='perfil.php'>
+      <input type="image" name="imgbtn" src="imagenes/persona.png"  alt="persona" class="persona">
+    </form>
 
   </div>
   <div class="caja_foto">

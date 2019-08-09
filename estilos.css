@@ -266,7 +266,7 @@ text-decoration: none;
   top:20px;
 }
 .icono1{
-  position: fixed;
+  position: absolute;
   top: 0;
 }
 .presio{
