@@ -71,7 +71,7 @@
       echo "<img src='imagenes/default.png' alt='error' class='imagenperfil'>";
     }
     ?>
-    <span class="textousuario Fuente"><?php echo $usuario ?></span>
+    <span class="textousuario"><?php echo $usuario ?></span>
   </div>
 </body>
 
